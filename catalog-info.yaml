@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: anything
+  description: anything
+spec:
+  type: openapi
+  lifecycle: production
+  owner: anything@anything.com
+  definition:
+    $text: http://127.0.0.1:9090
